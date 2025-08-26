@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         VENV = "venv"
-        PYTHON = "C:\\Users\\jampa\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+        PYTHON = "C:\\Program Files\\Python312\\python.exe "
     }
 
     stages {
@@ -31,6 +31,7 @@ pipeline {
         }
     }
 }
+
 
 
 
