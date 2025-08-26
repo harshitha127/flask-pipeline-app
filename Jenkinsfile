@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone GitHub Repo') {
             steps {
-                git branch: 'main', credentialsId: 'github-https', url: 'https://github.com//harshitha127//flask-pipeline-app.git'
+                git branch: 'main', credentialsId: 'github-https', url: 'https://github.com/harshitha127/flask-pipeline-app.git/'
             }
         }
 
@@ -31,6 +31,7 @@ pipeline {
         }
     }
 }
+
 
 
 
